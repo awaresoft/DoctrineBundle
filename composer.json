@@ -1,0 +1,16 @@
+{
+    "name": "awaresoft/doctrine-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Awaresoft DoctrineBundle",
+    "require": {
+        "php": ">= 7.4",
+        "willdurand/faker-bundle": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Awaresoft\\DoctrineBundle\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
